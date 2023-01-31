@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+}
+
+.container {
+    max-width: 1300px;
+    width: 90%;
+    margin: auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.navbar {
+    /* border: 2px solid black; */
+    box-shadow: 0 5px 4px rgb(146 161 176 / 15%);
+    width: 100%;
+}
+
+/* .navbar-link{
+    width: 20%;
+} */
+
+.padding {
+    padding: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+@media (max-width:700px) {
+    /* .navbar-link{
+        width: 70%;
+    } */
+}
